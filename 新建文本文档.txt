@@ -78,3 +78,20 @@ https://github.com/EugeneOne/atom-canvas/blob/master/src/components/canvas.vue(Ö
 http://www.cnblogs.com/koala2016/archive/2016/12/01/6123003.html(¹ØÏµÍ¼)
 
 http://gallery.echartsjs.com/editor.html?c=xrkQJnJWpe
+
+
+git clone url
+
+master ÓĞ´úÂë git add . /// git commit -m "" /// git push origin master 
+git checkout -b daily/1.0.0 ±¾µØ´´½¨daily
+±¾µØdaily·ÖÖ§ĞŞ¸Äºó
+git add .
+git commit -m ""
+git push origin daily/1.0.0
+
+git checkout master ÇĞ»»µ½master·ÖÖ§
+git pull origin masterÀ­È¡
+git merge daily/1.0.0  //°Ñdaily·ÖÖ§´úÂëºÏ²¢µ½µ±Ç°Ä¿Â¼
+git add .
+git commit -m ""
+git push origin master
